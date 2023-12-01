@@ -80,8 +80,12 @@ input[type='checkbox']:focus {
         --bs-body-color: white;
         --bs-body-color: white;
     }
+    .modal-content, .card-body, main {
+    background-color: var(--purple-dark);
+}
 }
 
-footer{
-  background-color: var(--gray);
+
+footer {
+    background-color: var(--gray);
 }
