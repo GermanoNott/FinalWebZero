@@ -57,11 +57,12 @@ input[type='checkbox']:focus {
 
 .botao-padrao {
     background-color: var(--gray);
-    color: black;
+    color: white;
 }
 
 .botao-padrao:hover {
     background-color: var(--purple-dark);
+    color: white;
 }
 
 .input-range::-webkit-slider-thumb {
@@ -85,6 +86,9 @@ input[type='checkbox']:focus {
 }
 }
 
+#loginForm button{
+    color: white;
+}
 
 footer {
     background-color: var(--gray);
